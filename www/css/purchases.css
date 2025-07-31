@@ -123,13 +123,18 @@ footer {
     padding: 2rem;
 }
 
+footer h2 {
+    display: inline-block;
+    text-align: center;
+}
+
 button {
     background-color: var(--crm-secondary);
     color: var(--light);
     font-size: x-large;
     padding: 1rem;
     border: none;
-    flex: 1;
+    flex: 45%;
 }
 
 button:hover {
